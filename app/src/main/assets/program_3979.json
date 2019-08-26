@@ -1,0 +1,859 @@
+{
+  "id": 3979,
+  "title": "Information Systems",
+  "description": "The Bachelor of Information Systems (BIS) degree is a highly prized qualification which provides students with information systems expertise and business skills. The program is intended to develop conceptual and practical skills. After an introductory first stage, students will learn about business systems analysis and design, data management, enterprise systems, business process management, big data business analytics, business systems infrastructure and security as well as mathematics, management accounting and commercial programming. This three year degree is designed for students interested in the use and application of IS and IT commercial environment. It combines courses that assist students to learn about the technical environment of IS as well as develop an understanding of the business implications of these systems. Organisations are always looking for 'business savvy' IS graduates who understand the business and technical issues which surround and impact their information systems. BIS graduates from this degree can target careers in areas such as: business systems analysis, information system development, communications networks analysis and development; IS security development; e-business systems development; business intelligence systems construction, business analytics and IS and IT architecture and infrastructure development and maintenance. The program includes courses from many disciplines including: Information Systems, Technology and Management, and other Commerce and Economics courses.",
+  "learning": [
+    "Business knowledge: Students will make informed and effective selection and application of knowledge in a discipline or profession, in the contexts of local and global business.",
+    "Problem solving: Students will define and address business problems, and propose effective evidence-based solutions, through the application of rigorous analysis and critical thinking.",
+    "Business communication: Students will harness, manage and communicate business information effectively using multiple forms of communication across different channels.",
+    "Teamwork: Students will interact and collaborate effectively with others to achieve a common business purpose or fulfil a common business project, and reflect critically on the process and the outcomes.",
+    "Responsible business practice: Students will develop and be committed to responsible business thinking and approaches, which are underpinned by ethical professional practice and sustainability considerations.",
+    "Global and cultural competence: Students will be aware of business systems in the wider world and actively committed to recognise and respect the cultural norms, beliefs and values of others, and will apply this knowledge to interact, communicate and work effectively in diverse environments.",
+    "Leadership development: Students will develop the capacity to take initiative, encourage forward thinking and bring about innovation, while effectively influencing others to achieve desired results."
+  ],
+  "level": "Undergraduate",
+  "award": "Bachelor of Information Systems",
+  "duration": 3,
+  "min_uoc": 144,
+  "max_l1_uoc": 60,
+  "l2_uoc_req": 24,
+  "l3_uoc_req": 48,
+  "courses": [
+    {
+      "id": "MGMT1001",
+      "title": "Managing Organisations and People",
+      "description": "Managing Organisations and People is a foundational core course offered in the main bachelor degree programs. This course introduces students to the knowledge and skills required to successfully manage organisations and people in a global economy, based on contemporary research and practice. The course is designed to provide strong foundations for the development of future organisational leaders and managers who will be able to successfully respond to complex and turbulent environments, promote and sustain strategic advantage, ensure ethical and social responsibility in business practice and decision making, and manage changing social, political and technological factors both inside and outside the organisation, in an increasingly global and diverse workplace.",
+      "faculty": "UNSW Business School",
+      "school": "School of Management",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "selection": [ "ACCT1501" ],
+      "terms": [ 1, 2, 3 ]
+
+    },
+    {
+      "id": "MATH1041",
+      "title": "Statistics for Life and Social Sciences",
+      "description": "Probability, random variables, independence. Discrete distributions, Poisson and binomial distributions. Data analysis, Descriptive statistics. Sampling, Continuous distributions, the normal distribution. Estimation of mean and variance. Tests of hypotheses. Linear regression and correlation. Tests for goodness of fit. Bayesian statistics. Students are assumed to have a level of knowledge equivalent to achieving a mark of at least 60 in HSC Mathematics. Students who have taken General Mathematics will not have achieved the level of knowledge which is assumed in this course. This course is not intended for students who propose to study a substantial amount of Mathematics beyond first year level. Many later year courses in Mathematics have completion of MATH1231, MATH1241 or MATH1251 as a prerequisite.",
+      "faculty": "Faculty of Science",
+      "school": "School of Mathematics & Statistics",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "selection": [ "ECON1203" ],
+      "exclude": [ "MATH2841" ],
+      "terms": [ 1, 2, 3 ]
+
+    },
+    {
+      "id": "ECON1101",
+      "title": "Microeconomics 1",
+      "description": "Economics is a social science which studies the ways in which people interact with one another and make decisions in a world with limited resources. The goal of this course is to provide you with the basic tools to °ßthink like an economist°® °V that is, to be able to use basic economic principles to ask and answer questions about how the world works or the effects of policies. We will cover topics such as how individuals or firms make decisions about the demand or supply of a product, how we can determine the efficiency of a market, and how we evaluate the costs and benefits of government intervention in a market.",
+      "faculty": "UNSW Business School",
+      "school": "School of Economics",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "selection": [ "ACCT1511" ],
+      "terms": [ 1, 2, 3 ]
+    },
+    {
+      "id": "ECON1203",
+      "title": "Business and Economic Statistics",
+      "description": "This course introduces students to basic statistical concepts and methods that are widely used in economics, finance, accountancy, marketing and, more generally, business. Emphasis is placed on applying statistical methods to draw inferences from sample data as an aid to informed decision-making. Course topics include: descriptive statistics, probability distributions, point and interval estimation of parameters, hypothesis testing, and regression models. Students will learn to solve statistical problems in an Excel spreadsheet environment. This course provides the basis for further study of statistical and econometric methods.",
+      "faculty": "UNSW Business School",
+      "school": "School of Economics",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "selection": [ "MATH1041" ],
+      "exclude": [ "ACTL2002", "MATH2099", "ACTL2131", "MATH2841", "MATH2801", "MATH2901" ],
+      "terms": [ 1, 2, 3 ]
+    },
+    {
+      "id": "ACCT1501",
+      "title": "Accounting and Financial Management 1A",
+      "description": "The compulsory core accounting unit will have a preparer perspective. It will provide an introduction to basic concepts in accounting and their application for decision making by a wide range of potential users (e.g., shareholders, investment analysts, lenders, managers etc). This unit should benefit students who wish to specialise in accounting, and will also be of value to students whose primary interest lies elsewhere in the field of business. On completion, students should have a clear understanding of the accounting process and the language of accounting to enable communication with an accounting professional, understand the relevance of accounting information for informed decision making by a wide range of potential users, and have the ability to analyse and interpret accounting information. Topics covered will include the accounting equation, general purpose financial reports, cash and accrual accounting, adjustments, internal control, financial statement analysis, and interpreting and preparing information for managers to use in planning, decision making and control.",
+      "faculty": "UNSW Business School",
+      "school": "School of Accounting",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "selection": [ "MGMT1001" ],
+      "terms": [ 1, 2, 3 ]
+
+    },
+    {
+      "id": "ACCT1511",
+      "title": "Accounting and Financial Management 1B",
+      "description": "Taken together, the accounting course in the compulsory core (ACCT1501) and this accounting course form an integrated study program designed to give students an understanding of the way in which financial information is generated and used, and to provide an appropriate platform for further study in accounting. On completion the first year accounting courses seek to develop students°¶: technical competence in recording economic events in the accounting system; a critical understanding of key technical terms and concepts so as to interpret accounting information and reports in the financial press; an ability to argue a reasoned position on key questions of accounting theory and practice; and familiarity with institutional structures that affect the practice of accounting. Topics covered in this course will include accounting for non-current assets and liabilities, revenues and expenses, balance sheet and income statement preparation, cash flow statements, ratio analysis, accounting policy choice and further detail on management accounting (including costing systems and budgeting).",
+      "faculty": "UNSW Business School",
+      "school": "School of Accounting",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "selection": [ "ECON1101" ],
+      "prerequisite": [ [ "ACCT1501" ] ],
+      "terms": [ 1, 2 ]
+    },
+    {
+      "id": "INFS1602",
+      "title": "Digital Transformation in Business",
+      "description": "This introduces students to the use of IS in business and society. As an overarching theme, INFS1602 examines the issues and management of IS in relation to human behaviour and its consequences. Through this course, students will learn to appreciate existing and emerging technologies affecting businesses, business relationships and their products and services. In taking this course, students will be provided with tasks and assignments that will aid in refining their professional business skills and the ability to evaluate the value of technology to businesses. This includes communication and group work skills, time management and research skills. The topics that are covered in INFS1602 include understanding the role of Information Systems and IS Professionals in Global Business, the relationship between Information Systems, Organisations, and Strategy, the dominant Business Models enabled by the Internet and Web 2.0 technology. The course will also explore contemporary technology enabled phenomena that are disruptive to the current business landscape. The course also touches on popular enterprise-level information systems such as Enterprise Systems, Supply Chain and Customer Relationship Management Systems and the emergence of business intelligence in supporting organisation decision making. The course also involves discussion of the considerations behind the acquisition and building of IS and the issues common to the management of IS projects. Lastly, the course addresses the need to secure the IS and the potential ethical and social issues faced by businesses in relation to their use of IS.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms": [ 1, 2, 3 ]
+    },
+    {
+      "id": "INFS1603",
+      "title": "Introduction to Business Databases",
+      "description": "This introduces students to the concepts, techniques, and technologies relevant for creating and managing business databases. It will explain the major components of IS, which are critical to capturing, transmitting, storing, retrieving, manipulating and displaying information used in business processes. Through this course, students will be exposed to the fundamental knowledge of business databases, which are foundational for many advanced courses. Students will be given tasks and assignments to help them acquire the ability to create and manage business databases.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms": [ 1, 2 ]
+    },
+    {
+      "id": "INFS1609",
+      "title": "Fundamentals of Business Programming",
+      "description": "This introduces students to application programming. The course provides a first step towards learning the principles of object-oriented programming through the Java programming language. Programming refers to the development of software, which is also called a program. Essentially, software contains the instructions that tell computerised devices what to do. In lectures, students will be introduced to the theoretical component of the course, learning fundamental programming concepts. During weekly workshop tutorials, students will engage in the practical component of the course, learning how to write code using the NetBeans Integrated Development Environment. The topics that are covered in INFS1609 introduce students to the fundamentals of Java programming. This begins with an overview of data types and methods before introducing students to small problem-solving exercises that require the use of conditional statements, loops and arrays (including multi-dimensional arrays and array lists). Students are then introduced to the topics of modular programming, testing and debugging (using JUNIT). Finally, having gained a general understanding of these concepts, students further explore the principles of object-oriented programming, including objects, classes, abstraction, polymorphism, inheritance and encapsulation.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "exclude": [ "COMP1400", "INFS2609" ],
+      "terms": [ 1, 3 ]
+    },
+    {
+      "id": "INFS2603",
+      "title": "Business Analysis",
+      "description": "This continues students' study of Information Systems by furthering their knowledge and skills in relation to business systems analysis. This course utilizes methodologies and approaches such as Agile Scrum, Design Thinking and Object-Orientation to analyse and design business information systems. In lectures, students will be introduced to a range of methods, tools and techniques used in planning, analysing and designing information systems. During weekly practical workshops, students will get a chance to apply their theoretical knowledge to understand real-world scenarios.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 24,
+      "prerequisite": [ ["INFS1602", "INFS1603"] ],
+      "terms": [ 3 ]
+    },
+    {
+      "id": "INFS2605",
+      "title": "Intermediate Business Programming",
+      "description": "This continues students' study of IS by furthering their knowledge and skills in relation to business application development. The course continues the study of Java programming from INFS1609 (Fundamentals of Business Programming) and examines contemporary approaches to software development. In lectures, students will study a range of topics from advanced Java concepts, software development frameworks and practices, to user experience and design. During weekly workshop tutorials, students will engage in the practical component of the course and problem-solving exercises through the development of Java applications using the NetBeans Integrated Development Environment (IDE). The topics that are covered in INFS2605 build on the programming skills introduced in INFS1609 and the database skills in INFS1603, providing students with a thorough review of software development processes and object-oriented programming principles. Students will then expand their application development skills and knowledge through the study of Model View Controller (MVC) architecture, event-driven programming, Graphical User Interfaces (GUI) and User Experience (UX) design. Specifically, the course introduces students to the development of JavaFX GUI applications, using Scene builder. Building on this, students are then provided with an overview of exception handling and taught how to develop basic database applications using Java Database Connectivity (JDBC), an application programming interface (API), which defines how a client may access a database. The course also provides an introduction to API°¶s that facilitate the development of reporting functionalities (e.g. exporting data to excel) from database applications. The course will also briefly cover basic web-development skills, design languages (material design) as well as UX principles and practices in the design of software products.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 24,
+      "prerequisite": [ [ "INFS1603", "INFS1609"],["INFS1603","INFS2609"] ],
+      "terms": [ 1, 3 ]
+    },
+    {
+      "id": "INFS2608",
+      "title": "Database Management and Big Data Infrastructures",
+      "description": "This continues students' study of IS by covering various advanced topics pertinent to big data management, which includes both relational and analytical data system infrastructure. It will explain advanced concepts used to design and manage relational and analytical big data system infrastructure. Through this course, students will learn to evaluate issues associated with big data management and business data analytics such as data quality and security. In taking this course, students will be provided with tasks and assignments that will aid in refining their ability to evaluate the value of data focused infrastructures.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 24,
+      "prerequisite": [ ["INFS1603"] ],
+      "terms": [ 1 ]
+    },
+    {
+      "id": "INFS2621",
+      "title": "Enterprise Systems",
+      "description": "This continues the student's study of IS by introducing students to Enterprise Systems used in today°¶s networked organisations, specifically, how they can be used by organisations to support data analytics and to run their operations more efficiently and effectively. Students will learn to develop models for selected business process including procurement, fulfilment and logistics. Students will learn to communicate the challenges in the selection, acquisition and implementation of Enterprise Systems.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 24,
+      "prerequisite": [ ["INFS1602"] ],
+      "exclude": [ "INFS5621" ],
+      "terms": [ 2 ]
+    },
+    {
+      "id": "INFS3603",
+      "title": "Introduction to Business Analytics",
+      "description": "This is a foundational course in Business Analytics (BA). This course provides students with an understanding of business needs and technology trends driving investment in business analytics and big data technologies. The course also presents the fundamentals of implementing and managing business analytics in organisations. In lectures, students will learn business analytics methods and tools as well as the challenges associated with implementing business analytics projects. Through real-world case studies, students will develop their understanding of the applications of business analytics as well as the social and ethical implications of business analytics. Students will also improve their critical thinking, problem-solving, research, communication and team-working skills through group assignments. Topics covered in this course include: decision-making process; business analytics concepts, methods, and frameworks; frameworks for putting analytics to work; the governance, oversight and business value gained from business analytics within organisations; ethical and social implications of business analytics; and future directions for business analytics. SAS Visual Analytics will be used in this course.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 72,
+      "prerequisite": [ [ "INFS1602" ] ],
+      "terms": [ 1, 2 ]
+    },
+    {
+      "id": "INFS3604",
+      "title": "Business Project Management",
+      "description": "To meet the demands of today's competitive marketplace, enterprise processes must be lean and customer focussed. This course looks at ways in which business processes can be analysed, redesigned, and improved thus ensuring that they are meeting the needs of customers and the enterprise. A business process is a set of related activities that jointly realise a business goal in an organisational and technical environment. These processes take place in a single organisation but may need to interact with processes in other organisations. Business process management (BPM) is concerned with the concepts, methods, and techniques that support the design, improvement, management, configuration, enactment, and analysis of business processes that deliver lean and customer focused business processes. BPM includes process modelling that explicitly represents processes °V once they are defined, processes can be analysed, improved, and enacted. Software in the form of business process management systems can be used to manage business process.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 72,
+      "prerequisite": [ [ "INFS2603" ] ],
+      "exclude": [ "INFS5604" ],
+      "terms": [ 3 ]
+    },
+    {
+      "id": "INFS3605",
+      "title": "Information Systems Innovation and Transformation",
+      "description": "This concludes the students' study of IS through the application, integration and synthesis of students' knowledge from previous IS courses. Specifically, INFS3605 is the •capstone IS course that is centrally organised around practical, experiential, group software projects. Throughout the course, students will apply programming knowledge and teamwork skills learnt in previous courses in an applied and integrated fashion. The course begins with student groups brainstorming and developing their software project ideas and then gathering requirements. Following this, student groups engage in an iterative development process in designing and refining their software application. Specifically, students will use the agile scrum framework in developing their software project, working in two-week sprints/iterations. This hands-on project course takes a blended approach to learning, mixing online content provided through the school°¶s e-learning platform (Moodle) with weekly flipped workshop sessions. Throughout the course, students will perform various roles (including scrum master and product owner) and ceremonies (including sprint planning, stand-up sessions, sprint reviews, sprint retrospectives and backlog refinement), as well as utilise a number of a tools (such as Kanban boards, burndown charts and planning poker). Overall, this capstone project course requires students to apply, integrate and build upon existing knowledge and skills learnt in previous IS courses. In particular, the course requires students to perform as agile scrum teams and develop complex software applications in an iterative and incremental manner.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 72,
+      "prerequisite": [ [ "INFS3634" ], [ "INFS3611" ] ],
+      "terms": [ 1, 2 ]
+    },
+    {
+      "id": "INFS3617",
+      "title": "Networking and Cyber Security",
+      "description": "This continues students' study in IS by further developing their knowledge and understanding in information technology infrastructure and security in a business environment. The course will provide students with a learning experience that encourages participation and building of ideas in regards to current issues in business data networks, telecommunications, and infrastructure along with class discussions on the topics. The course has a technical component in which students gain practical knowledge and experience in networking and IS security techniques. Topics to be covered in this course include inter-networked data communications and distributed data processing. Topics covered include, the business imperatives for distributed systems, systems architectural design (client/server; distributed processing, etc) layered architecture models (TCP/IP, OSI, etc), key network models and technologies, security issues related to architecture, design and technology, network configuration and management techniques.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 72,
+      "prerequisite": [ [ "INFS1602" ] ],
+      "exclude": [ "INFS2607" ],
+      "terms": [ 1 ]
+    },
+    {
+      "id": "INFS3634",
+      "title": "Mobile Applications Development",
+      "description": "This continues students' study of IS by furthering their knowledge and skills in relation to mobile application development. Continuing from INFS2605, this course focuses on the development of software applications using the Android platform. During lectures will be provided with an overview of mobile programming concepts and tools, and engage in case studies with regards to mobile App development and the current mobile market. During the weekly practical tutorials, students will use the Android Studio Integrated development environment (IDE) in learning how to design and develop a range of mobile applications. Students will be required to evaluate the quality of their own, and peers°¶, coding solutions. This course is offered as a third-year elective from the School of Information Systems and Technology Management. A central aim of this course is to provide students with a foundational understanding of the technologies, methods and skills required to design and develop apps on the Android platform. This course aims to provide students with various concepts and skills that are essential in careers such as project designers and software developers. This course builds on from INFS1609/INFS2609 and INFS2605 and provides learning material useful for student°¶s project work in INFS3605.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "CORE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 48,
+      "prerequisite": [ [ "INFS2605" ]  ],
+      "terms": [ 1, 3 ]
+    },
+
+    {
+      "id": "INFS2631",
+      "title": "Innovation and Technology Management",
+      "description": "This is a multi-disciplinary course at the intersection of information systems, entrepreneurship, and operations management. The course aims to develop students' conceptual knowledge and practical skills regarding managing technological innovation through various phases of the innovation process. This course will analyse how small and large firms innovative, commercialise and compete in competitive markets through the development and management of technology. The course emphasises the role of crowdsourcing, social media and social networks in developing, driving and managing innovations. The course will primarily use case studies and class discussions to analyse emerging issues in technology strategy and entrepreneurship.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "ELECTIVE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 24,
+      "prerequisite": [ ["INFS1602" ] ],
+      "exclude": [ "INFS3631" ],
+      "terms": [ 1 ]
+    },
+    {
+      "id": "INFS3020",
+      "title": "International Information Systems and Technology Practicum",
+      "description": "This course affords students the opportunity to develop knowledge and understanding of international aspect of information systems/technology (IS/IT) business operations (e.g. global IS/IT teams, distributed systems development, e-Business, and localisation management) through the first-hand observation of businesses in Asian countries such as China, India, Hong Kong, and South Korea. The central components of the course include a series of seminars and a two-week study tour to one Asian country, in which a number of leading international and national companies, including companies operating in the IS/IT sector and those in other sectors with a significant IS/IT footprint, will be visited in order to enable students to develop an appreciation of the ways in which IS/IT enabled business operations and business systems differ across national boundaries. Students are required to prepare a written assignment based on the field trip at the end of the tour based on their observations of the businesses and the country. A group presentation and personal reflection report are to be delivered prior to the end of the Term 2.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "ELECTIVE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 36,
+      "min_wam": 60,
+      "terms": [ 2 ]
+    },
+    {
+      "id": "INFS3632",
+      "title": "Service and Quality Management",
+      "description": "This introduces students to the key concepts in managing service operations and quality management. This course emphasises the use of data analytics to study service quality management and will teach skills and tools such as Statistical Quality Control, Six-Sigma, and Lean Operations, which are valuable for service process quality control. In lectures, students will learn the \"state of the art\" of process management of service firms and the opportunities provided by information technology and data analytics in enhancing their competitiveness. Students will be engaged in simulations, where they can apply the concepts learnt in the class to real-world settings and learn how to manage process variabilities and quality control. In a project which involves conducting a walk-through-audit to a real company of the students°¶ choice, they will learn how to implement a service business to meet customer satisfaction. The service sector is the fastest-growing sector of the economy in Australia, which represents about 70% of Australia's gross domestic product and provides significant employment opportunities to Australians. To maintain Australia's position as a leading world-class provider of services, it is important for all employees in service and the public sector to understand the concepts and tools used to design and operate processes that will deliver a high quality of services.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "ELECTIVE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 72,
+      "prerequisite": [ [ "INFS1602" ] ],
+      "terms": [ 2 ]
+    },
+    {
+      "id": "INFS3830",
+      "title": "Social Media and Analytics",
+      "description": "This provides an introduction to the use of social media in organisation by examining the enabling effect of social media technologies for competitive advantage and the potential insights from the vast data generated on social media platforms. Students will analyse and develop strategies related to the use of social technologies within businesses and the use of social media as for external relations (especially with customers). This course is designed to critically evaluate the potential for social media technologies to facilitate meaningful discussions in communities, consumer markets and strategic decision making. In addition to examining strategies to create and extract value from social media, the effect of social media on operational matters, social media metrics and strategic aspects of social media analytics, the course will incorporate a hands-on component using SAS software.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "ELECTIVE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 72,
+      "prerequisite": [ [ "INFS3603" ] ],
+      "exclude": [ "INFS4830", "INFS5930" ],
+      "terms": [ 1 ]
+    },
+    {
+      "id": "INFS3873",
+      "title": "Business Analytics Methods",
+      "description": "Today's organisations operate on a global scale and collect huge volumes of data from multiple sources. Management recognises the need to learn how to gather and manage strategic data, transform it into new insights, and translate those insights into effective front-line action in order to have a better understanding of business performance and gain competitive advantage. This course will provide students with advanced business analytics methods including predictive analytics and Visual analytics. Both meaningful hands-on experience and case studies describing organisational experiences with business analytics are included. The course has a technical component in which students gain practical knowledge and skills in data mining and visual analytics.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "ELECTIVE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 72,
+      "prerequisite": [ [ "INFS3603" ] ],
+      "exclude": [ "INFS5720", "INFS5873" ],
+
+      "terms": [ 3 ]
+
+    },
+
+
+    {
+
+      "id": "ARTS1660",
+      "title": "Introductory Korean A",
+      "description": "This course provides introductory level tuition in Korean language from a communicative and task-based approach. The medium of instruction is English and, wherever appropriate, Korean. Through this course, you will develop basic communicative skills in Korean through various speaking and writing activities. The course begins with the Korean sound system and basic greetings and introduces a number of grammatical structures and vocabulary that are essential to basic communication in Korean. Vocabulary and grammatical structures are expressed in Hangeul and presented within the context of culturally relevant topics. The topics covered in the course include introductions and greetings, Korean alphabet, exchanging information, offering and asking, counting, telling the time and making appointments, discussing daily routines as well as food, travelling and places in Korea. Wherever appropriate, the course utilises K-pop materials and 'cyber-realia'.This course is a beginners-level language course. All students who have had some experience with the language, either as a heritage language or through previous instruction, must fill in the placement questionnaire available at https://hal.arts.unsw.edu.au/students/courses/language-placements. You will not be permitted to enrol in a language course that is too easy for you. If this occurs, you will be requested to change your enrolment.",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "school": "School of Humanities and Languages",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "exclude": [ "GENT0431", "KORE1000" ],
+      "terms": [ 1 ]
+
+    },
+
+    {
+      "id": "ARTS1661",
+      "title": "Introductory Korean B",
+      "description": "This course provides introductory level tuition in Korean language from a communicative and task-based approach. The medium of instruction is English and, wherever appropriate, Korean. Through this course, you will continue to develop basic communicative skills in Korean through various speaking and writing activities, while expanding your understanding of how the Korean language works and how the Korean way of life contrasts with your own. The topics covered in the course include how you travel to university, your family, study, hobbies and favourite sports, daily and weekend activities, house, clothing and favourite colours, and feelings and emotions, and shops and goods for sale, and weather and climate. Wherever appropriate, the course utilises K-pop materials and 'cyber-realia'. ",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "school": "School of Humanities and Languages",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "prerequisite": [ [ "ARTS1660" ] ],
+      "exclude": [ "KORE1001" ],
+      "terms" : [ 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "ARTS1450",
+      "title": "Introductory Chinese A for Non-Background Students",
+      "description": "This is an introductory course in Modern Standard Chinese language (Mandarin) for non-background speakers. The course will start with basic components of Chinese language: the pinyin, and characters. It will teach you how the Chinese language works both grammatically and in socio-cultural contexts so that you start to develop your linguistic and communicative competences. The four language skills - Listening, Speaking, Reading, and Writing - are integrated throughout the course. A cultural awareness is also built into the course. Through language study you will develop an informed understanding of Chinese linguistic behaviour, society and culture.This course is a beginners-level language course. All students who have had some experience with the language, either as a heritage language or through previous instruction, must fill in the placement questionnaire available at https://hal.arts.unsw.edu.au/students/courses/language-placements. You will not be permitted to enrol in a language course that is too easy for you. If this occurs, you will be requested to change your enrolment.",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "school": "School of Humanities and Languages",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "exclude": [ "ARTS1452" ],
+      "terms" : [ 1 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "ARTS1451",
+      "title": "Introductory Chinese B for Non-Background Students",
+      "description": "This is the second of the year one gateway courses in Modern Standard Chinese language (Mandarin) for non-background speakers. It is for students who have already completed ARTS1450 or the equivalent. The course develops your language competence and communicative skills in Chinese through various interactive activities. The four language skills - Listening, Speaking, Reading and Writing - are integrated throughout the course. Knowledge of Chinese characters and grammatical structures will be presented in the context of culturally relevant topics, including exchanging information, offering and asking, visiting friends, making appointments, seeing a doctor, ordering food, travel and sightseeing. Through language study and cultural exposure you will enhance your understanding of Chinese linguistic behaviour, society and culture.",
+      "faculty": "Faculty of Arts and Social Sciences",
+      "school": "School of Humanities and Languages",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "prerequisite": [ [ "ARTS1450" ] ],
+      "exclude": [ "ARTS1453" ],
+      "terms" : [ 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "ACCT1511",
+      "title": "Accounting and Financial Management 1B",
+      "description": "Taken together, the accounting course in the compulsory core (ACCT1501) and this accounting course form an integrated study program designed to give students an understanding of the way in which financial information is generated and used, and to provide an appropriate platform for further study in accounting. On completion the first year accounting courses seek to develop studentsí: technical competence in recording economic events in the accounting system; a critical understanding of key technical terms and concepts so as to interpret accounting information and reports in the financial press; an ability to argue a reasoned position on key questions of accounting theory and practice; and familiarity with institutional structures that affect the practice of accounting. Topics covered in this course will include accounting for non-current assets and liabilities, revenues and expenses, balance sheet and income statement preparation, cash flow statements, ratio analysis, accounting policy choice and further detail on management accounting (including costing systems and budgeting).",
+      "faculty": "UNSW Business School",
+      "school": "School of Accounting",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "prerequisite": [ [ "ACCT1501" ] ],
+      "terms" : [ 1, 2 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMM1001",
+      "title": "Communication in Business and Economics",
+      "description": "This course addresses foundation language principles and practices, targeting the achievement of fundamental English communication skills and literacy skills required for successful advanced learning in a university context. Tailored to the specific needs of students studying Economics and Business, the course will enable students to understand, summarise and critique complex presentations and readings, to discuss ideas with others, and to communicate challenging and complex concepts and arguments clearly in both oral and written form.",
+      "faculty": "UNSW Business School",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 1 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMM2222",
+      "title": "Industry Experience Program",
+      "description": "This course provides an opportunity for Business School students to apply their academic knowledge and other professional skills in a real working environment.Students are required to spend a minimum of 140 hours working with a partner company on a placement or project basis. The course involves preparatory modules prior to beginning any placement, and completion of academic assignments throughout the placement.Enrolment in the course is restricted and only Business School students studying a single or dual degree who meet the requirements of the selection process will be admitted. Eligibility is listed on Career Accelerator webpage -  https://www.business.unsw.edu.au/students/career-accelerator/internships-and-consulting-projects/industry-experience-program",
+      "faculty": "UNSW Business School",
+      "type": "ELECTIVE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 72,
+      "min_wam": "65 plus",
+      "terms" : [ 1, 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMP1511",
+      "title": "Programming Fundamentals",
+      "description": "An introduction to problem-solving via programming, which aims to have students develop proficiency in using a high level programming language. Topics: algorithms, program structures (statements, sequence, selection, iteration, functions), data types (numeric, character), data structures (arrays, tuples, pointers, lists), storage structures (memory, addresses), introduction to analysis of algorithms, testing, code quality, teamwork, and reflective practice. The course includes extensive practical work in labs and programming projects.Additional Information, this course should be taken by all CSE majors, and any other students who have an interest in computing or who wish to be extended. It does not require any prior computing knowledge or experience.COMP1511 leads on to COMP1521, COMP1531, COMP2511 and COMP2521, which form the core of the study of computing at UNSW and which are pre-requisites for the full range of further computing courses.Due to overlapping material, students who complete COMP1511 may not also enrol in COMP1911 or COMP1921.",
+      "faculty": "Faculty of Engineering",
+      "school": "School of Computer Science and Engineering",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "equivalent courses": [ "COMP1917" ],
+      "terms" : [ 1, 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMP1521",
+      "title": "Computer Systems Fundamentals",
+      "description": "This course provides a programmer's view on how a computer system executes programs, manipulates data and communicates. It enables students to become effective programmers in dealing with issues of performance, portability, and robustness. It is typically taken in the semester after completing COMP1511, but could be delayed and taken later. It serves as a foundation for later courses on networks, operating systems, computer architecture and compilers, where a deeper understanding of systems-level issues is required.Topics: introduction to the systems-level view of computing, number representation, machine-level programming, representing high-level programs in machine code, memory, input/output, system architectures, operating systems, networks, parallelism/concurrency, communication/synchronisation. Labs and assignment work in C and machine code.",
+      "faculty": "Faculty of Engineering",
+      "school": "School of Computer Science and Engineering",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "prerequisite": [ [ "COMP1511" ], [ "COMP1911" ], [ "COMP1917" ] ],
+      "terms" : [ 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMP1531",
+      "title": "Software Engineering Fundamentals",
+      "description": "This course provides an introduction to software engineering principles: basic software lifecycle concepts, modern development methodologies, conceptual modeling and how these activities relate to programming. It also introduces the basic notions of team-based project management via conducting a project to design, build and deploy a simple web-based application. It is typically taken in the semester after completing COMP1511, but could be delayed and taken later. It provides essential background for the teamwork and project management required in many later courses.The goal of this course is to expose the students to - basic elements of software engineering: including requirements elicitation, analysis and specification; design; construction; verification and validation; deployment; and operation and maintenance.Data modelling,software engineering methodologies, processes, measurements, tools and techniques,Web-based system architecture and development practices on Web platforms",
+      "faculty": "Faculty of Engineering",
+      "school": "School of Computer Science and Engineering",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "prerequisite": [ [ "COMP1511" ],[ "COMP1917" ],[ "COMP1921" ] ],
+      "exclude": [ "SENG1010", "SENG1031", "SENG1020"  ],
+      "terms" : [ 1, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "MARK1012",
+      "title": "Marketing Fundamentals",
+      "description": "In today's business world, marketing is viewed as central to creating and delivering value both to the organisation and to the customer. It impacts all aspects of a business organisation, shaping and directing corporate through to marketing strategy. Many companies acknowledge that their growth and survival depends on putting the customer at the centre of their planning. Thus, an understanding of marketing is essential for any business student.This course introduces the student to the major concepts and theories, reflecting the breadth and diversity of marketing. It provides insights into where marketing fits within an organisation, its contributions to business in general, describes frameworks supporting marketing activities, and helps with challenges in the ever changing market place. It discusses the application of this understanding to consumer goods, as well as service, business-to-business, industrial and non-profit organizations, and to the growing area of e-commerce. Topics include: marketing processes and planning, the use of market research, an understanding of consumers and customers, decision-making and the marketing mix, market segmentation, positioning and product differentiation, the changing global environment.",
+      "faculty": "UNSW Business School",
+      "school": "School of Marketing",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 1, 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "MGMT1002",
+      "title": "Managing Organisational Behaviour",
+      "description": "This course is important for students wanting to learn people skills so that they will become effective managers and leaders. This course provides a detailed introduction to organisational behaviour and draws on its inter-disciplinary foundations and applies them to the management of public, private and other organisations. The course offers a critical introduction to a range of frameworks associated with understanding personality and ability, work attitudes, motivation, leadership, change and  culture.",
+      "faculty": "UNSW Business School",
+      "school": "School of Management",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "prerequisite": [ [ "MGMT1001" ] ],
+      "terms" : [ 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "FINS1612",
+      "title": "Capital Markets and Institutions",
+      "description": "This course will provide students with an introduction to Australian financial markets and an evaluation of the institutions, instruments and participants involved in the industry. The mainstream markets to be evaluated include the equity, money, bond, futures, options and exchange rate markets. The subject systematically reviews each of the mainstream financial markets and investigates the various institutional participants and the different types of financial instruments offered. ",
+      "faculty": "UNSW Business School",
+      "school": "School of Banking and Finance",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 1, 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "FINS1613",
+      "title": "Business Finance",
+      "description": "This is a first level corporate finance course that looks at the essential aspects of financial decision-making. The course begins with the different ways in which companies can be structured and the differing types of ownership that exist. Thereafter, the principles and applications of financial mathematics are introduced and used to value securities and investment decisions. Portfolio theory is used to provide a foundation for determining the relationship between expected risk and returns in financial and real asset investments. Dividend pay-outs and the choices between debt and equity financing, including methods of determining the cost of capital, are also covered. Further, this course includes analysis of the influence of the capital market environment, the implications of financial risk, taxation and the conflict of interest between managers and investors on the value and operation of businesses. The course develops distinct conceptual frameworks and specialised tools for solving real-world financial problems at both the personal and corporate level. Illustrations from real-life corporate practices are used to highlight the importance and relevance of financial management to the realisation of personal and corporate financial objectives. Examples include personal financial planning, funds management, capital raisings, portfolio selection of financial securities, private equity, public floats and the pricing of assets in the stock market.",
+      "faculty": "UNSW Business School",
+      "school": "School of Banking and Finance",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 1, 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "ACCT2522",
+      "title": "Management Accounting 1",
+      "description": "This course examines management accounting practices directed towards the effective use of organisational resources and focuses on three interrelated themes: first, the design and operation of management accounting systems for planning and control; second, the role of management accounting practices in supporting effective resource management and process improvement; and, third, the manner in which these practices affect and are affected by human processes within organisations. We aim to encourage critical thinking about such issues, and to improve students' abilities to address these with confidence and creativity in a professional and work-based context. The course draws upon business practice, contemporary and international research, case studies, and the applied research experiences of course participants.",
+      "faculty": "UNSW Business School",
+      "school": "School of Accounting",
+      "type": "ELECTIVE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 24,
+      "prerequisite": [ [ "ACCT1511" ] ],
+      "terms" : [ 1 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMM2101",
+      "title": "Industry Experience Placement 1",
+      "description": "The main aims of this course is to provide students with practical experience that complements their academic studies, and to give Sponsors enthusiastic and talented young achievers who may wish to work with them upon graduation. Industry Experience Placement 1 is intended to be an introduction to the Sponsor's business, and the structures and policies in place to support the core business activities. Ideally, the Scholars should interact with several areas of the organisation.Note: NOT available to UNSW Business School Co-op Scholars. Students will be enrolled across two terms for a total of 12UOC and must apply for this course through the Coop office ",
+      "faculty": "UNSW Business School",
+      "type": "ELECTIVE",
+      "level": 2,
+      "uoc": 6,
+      "min_uoc": 24,
+      "terms" : [ 1, 2, 3 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "INFS3202",
+      "title": "Industry Placement 2",
+      "description": "This course provides scholars with a practical application of the fundamental principles of information systems and technology management in an industry environment. This course is only available to Information Systems, UNSW Business School Co-op Scholars who are enrolled in the BIS (Co-op) (Hons) 3964 or the BCom IS (Co-op) 3554 Degree Programs.",
+      "faculty": "UNSW Business School",
+      "school": "School of Information Systems and Technology Management",
+      "type": "ELECTIVE",
+      "level": 3,
+      "uoc": 6,
+      "min_uoc": 48,
+      "prerequisite": [ [ "INFS2101", "INFSB13554" ], ["INFS2101", "INFSCH3971"],                       ["INFS2101","INFSCH3964"] ],
+      "terms" : [ 1, 2 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMP1000",
+      "title": "Introduction to World Wide Web, Spreadsheets and Databases",
+      "description": "World wide web(WWW) dependent activities have become an essential part of our existence and yet many of us do not know much about how they works. In the first part of this course, we introduce the abstract features of the internet and the software that makes it so powerful. Knowledge about the architecture of the internet, world wide web, browsers, search engines, e-commerce, security, etc. will be helpful in using the internet more effectively as well as becoming aware of the several pitfalls associated with this modern technology. Spreadsheets and databases are two of the most commonly used and powerful computer tools yet they are often poorly utilised and the reasons for using one rather than the other are poorly understood. Many people purchase Microsoft Office which comes bundled with Microsoft Excel and Microsoft Access - a spreadsheet and a database application - yet while many people have some familiarity with Microsoft Excel, Microsoft Access is rarely utilised. This course aims to explain in straightforward terms the concepts underlying both of these powerful pieces of software so that students can exploit them effectively for both their studies and future careers. It will investigate how to design and implement effective spreadsheet and database applications. Students should also be able to transfer these skills to other, similar spreadsheet and database packages. Students will be expected to have personal copies of Microsoft Excel and Microsoft Access on their own computers. Note(s): This course may not be taken by students enrolled in an Engineering program.",
+      "faculty": "Faculty of Engineering",
+      "school": "School of Computer Science and Engineering",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "exclude": [ "GENE8000","COMP0011"],
+      "terms" : [ 2 ]
+    }
+
+
+
+
+  ,
+    {
+      "id": "COMP1400",
+      "title": "Programming for Designers",
+      "description": "An introduction to the concepts and techniques of object oriented programming with a focus on the construction of interactive multimedia applications. Delivery is through lectures and computer lab classes. Assessment will be via a number of in-class exercises and staged assignments. ",
+      "faculty": "Faculty of Engineering",
+      "school": "School of Computer Science and Engineering",
+      "type": "ELECTIVE",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "notes": [ "Enrolment in a non-CSE major", "no BINF, COMP, or SENG" ],
+      "exclude": [ "INFS1609", "INFS2609"],
+      "terms" : [ 3 ]
+    },
+
+    {
+      "id": "GENM0707",
+      "title": "Nutrition and Health",
+      "description": "Nutrition is relevant to everybody, every day. What, how and why you eat and drink are questions you may not have contemplated in any depth, but adequate nutrition is key to both good physical and mental health. In exploring the mechanisms and determinants of nutrition behaviours, this course offers an opportunity to understand what nutrients your body needs, how your body processes nutrients, how to analyse your own diet, and how poor nutrition can influence individual and population health. ",
+      "faculty": "Faculty of Medicine",
+      "school": "School of Public Health & Community Medicine",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "notes": [ "Undergraduate Faculty of Medicine single/dual program students" ],
+      "terms" : [ 2 ]
+
+    },
+
+    {
+      "id": "GENM0703",
+      "title": "Concepts of Physical Activity, Exercise and Health",
+      "description": "In this course, you will learn about how the human body moves and the relationships between physical activity or inactivity and health and disease. There is confusing information in our modern world regarding physical activity and health. This course uses evidence-based medicine to explain physical activity-related subjects using the latest scientific evidence. Some topics covered include: the physiology of movement, effects of physical activity on the body, physical activity public health, physical activity requirements and needs for different population groups, and use of technology.You will be encouraged to look at your movement habits - and those of the wider public - in a new way that will hopefully improve your health (and that of your loved ones) now, and in the years to come.",
+      "faculty": "Faculty of Medicine",
+      "school": "School of Public Health & Community Medicine",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "notes": [ "Undergraduate Faculty of Medicine single/dual program students" ],
+      "terms" : [ 1 ]
+
+    },
+
+    {
+      "id": "GENM0518",
+      "title": "Health and Power in an Internet Age",
+      "description": "Australia spends $100 billion a year on health care and its average health indicators are among the best in the world. None the less, some Australians are much less healthy than others. In exploring the question of why this is so, the course examines concepts of power and health in society and how the distribution of wealth is reflected in the health status of different social classes and ethnic groups. It also traces trends in understandings of health and public health, the challenge of alternative models of health, how the internet is bringing about changes in power relationships in the health field and explores controversies over childbirth. For further Information see SPHCM General Education Timetables",
+      "faculty": "Faculty of Medicine",
+      "school": "School of Public Health & Community Medicine",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "notes": [ "Undergraduate Faculty of Medicine single/dual program students" ],
+      "terms" : [ 3 ]
+
+    },
+
+    {
+      "id": "GENL0252",
+      "title": "International Relations and Sport",
+      "description": "In the twentieth century sport was transformed from an amateur pastime to a global business and became an important tool for nations in the conduct international relations and diplomacy. This course will introduce students to the development of the international sports system and its modes of governance. It will consider the notion of an international sports law. It will explore the use of sport in international relations and diplomacy from the rise of totalitarian regimes in the 1930s to the present day. Using a series of case studies, the course will consider themes such as sport as international diplomacy; international treaties related to sport; sporting boycotts, human rights; discrimination; violence; women in sport; sport as development aid; corruption in sport; among others. It will also examine international organisations such as the IOC, FIFA, the World Anti-Doping Agency and the Court of Arbitration for Sport. Main Topics: Sport, Spectacle and Diplomacy in Early Modern Europe; soft Power and International Relations; the Governance Structures of International Sport; totalitarian Regimes and the use of Sport in international relations; the use of sporting boycotts in internationals relations; human rights and sport; sport as development Aid; the Politics of Sport and intellectual Property and Ambush Marketing; sweatshops and the Sports  Apparel Industry; sport and International Treaties; intersection of International Law and Sport; the Court of Arbitration for Sport and the World Anti Doping Agency",
+      "faculty": "Faculty of Law",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "exclude": [ "GENL1020" ],
+      "terms" : [ 2 ]
+    },
+
+    {
+      "id": "GENL1062",
+      "title": "Understanding Human Rights",
+      "description": "Understanding Human Rights examines the moral and legal foundations of the contemporary human rights discourse. It explores the origins of human rights in Western philosophy and the impact of this on some of the important debates in the discourse, including the charge of Western bias in the international system and the conflict between universalism and cultural relativism. It examines the development of national and international human rights instruments. The course examines the United Nations Human Rights treaty system and associated mechanisms. It introduces students to human rights protection and enforcement through Public International Law, International Humanitarian Law, and Humanitarian Intervention; it discusses the role of the UN Security Council, and the role of the International Criminal Court and Special Tribunals. The course also critiques Australiaís human rights record by examining the relationship between Australian and International Law and seeing what rights are protected in the Constitution. Other protective measures are also identified. The course uses contemporary examples of human rights abuse to illustrate the content.",
+      "faculty": "Faculty of Law",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 1, 3 ]
+    },
+
+    {
+      "id": "GENL1063",
+      "title": "Terror and Religion",
+      "description": "The aim of Terror and Religion is to explore the historic and contemporary links between terror and religion, and to help students understand the complexity of religious violence in the late 20th and early 21st centuries, especially in relation to terrorism and the so-called ìwar against terrorî. The course addresses the re-emergence of religious nationalism and the threats it presents to modern states.The course investigates legal and other definitions of terrorism and the development of modern doctrines of terror. It examines topics such as religious motivation, and the justification and legitimisation of the use violence in a number of major religious belief systems. It identifies the differences between mainstream and extremist teachings on the use of violence in these religions. It analyses significant acts of religiously motivated violence, and explores background issues such as secularisation, modernism and globalisation. It also looks at more personal issues, such as the nature of religious conviction and its influence on behaviour.The course takes an interdisciplinary approach, incorporating insights from history, philosophy, psychology, sociology, studies in religion, politics and the law. Main Topics: historic and contemporary examples of violence in religions such as Christianity, Islam, Judaism, Sikhism, Buddhism and new religious movements; the evolution of modern doctrines of terror and their influence on religiously motivated violence; similarities and differences between religious and other forms of terrorism; interpretation of religious teachings on violence by extremist thinkers in a number of religions and their significance for contemporary terrorism; analytical tools for understanding contemporary religious violence, including an understanding of personal, contextual and environmental factors; ideology: what it is; how it works; some examples; the influence of local and global politics and secularisation on the spread of religiously motivated violence; alternative forms of governance suggested by religious extremists, including the transnational entities such as a caliphate or theocracy; the threat that contemporary terrorism poses to democracies; and recent developments in terrorism studies, including legal and policing counter-terrorism policies.",
+      "faculty": "Faculty of Law",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 2 ]
+    },
+
+
+
+    {
+      "id": "GENM0295",
+      "title": "Personalised medicine",
+      "description": "The last 10-15 years have yielded significant and rapid advances in our understanding of the human genome, and the impact on human health & clinical practice is already being widely felt. This course will discuss both the potential benefits and possible controversies surrounding the genetic revolution as it relates to healthcare. Students will learn how genetic testing is currently used to guide treatment across a range of diseases including cancer, neurological diseases, autoimmune disorders, cardiovascular disease, and respiratory disease. In addition, students will explore the power of genetics to impact disease prevention and diagnosis, and the social, legal, political and ethical implications of this new knowledge.",
+      "faculty": "Faculty of Medicine",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 3 ]
+    },
+
+    {
+      "id": "GENM0708",
+      "title": "Principles of Health Education & Behaviour Change",
+      "description": "This course is offered in two modes: either face to face (on-campus) and fully online. This is a six-unit general education course. It is designed to provide students from a range of disciplines with: (1) an understanding of theories and models of behaviour change; and (2) the opportunity to practice skills and strategies that impact health behavioural change. Particular emphasis is placed on improving competency in communication and decision-making to assist self and others with health concerns. With progress through the course, students will develop a more sophisticated level of knowledge, attitudes, values, and skills to address health issues and play an active role in enhancing their own health and that of their community. More specifically, students will gain the social, problem-solving, and communication skills necessary to manage their own health in a variety of situations.  This course is action-oriented; as such, students will be encouraged to implement and evaluate their own lifestyle choices and inspire others to optimise their wellbeing. Classes will combine lecture, discussion of the readings, case studies, real-life scenarios, presentations, small group exercises, and audio-visual materials.",
+      "faculty": "Faculty of Medicine",
+      "school": "School of Public Health & Community Medicine",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "notes": [ "Undergraduate Faculty of Medicine single/dual program students" ],
+      "terms" : [ 1 ]
+    },
+
+    {
+      "id": "GENS0401",
+      "title": "Introduction to Climate Change",
+      "description": "Why do people disagree so much about climate change? How can you tell fact from fiction in the debate? How do we know climate change is happening and what are the causes? Climate change is now an issue confronting many disciplines, from architecture, engineering and business through to environmental science, public health, law and economics. This online course will draw on a broad collection of UNSW experts to cover the basics of climate change science, as well as a selection of key related areas from psychology, law, politics, economics, energy supply, ethics and health. A range of perspectives on the nature of these challenges will be treated with a critical analysis approach, as well hands-on engagement with the peer review process, highlighting its role in the scientific process. This course is an online-only offering. Take a look at our short introduction video.",
+      "faculty": "Faculty of Science",
+      "school": "School of Biological, Earth and Environmental Sciences",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "notes": [ "All SCI Undergraduate Programs" ],
+      "terms" : [ 2, 3 ]
+
+    },
+
+    {
+      "id": "GENL0231",
+      "title": "Law in the Digital Age",
+      "description": "This course will give students an overview of the operation of new media and communications services under Australian law; examining both the legal requirements and the policy reasoning behind the way in which media; data; telecommunications and communications are regulated. Main Topics: how laws are made, changed, interpreted and enforced; with cybercrime among the examples; laws governing licensing; ownership and control of telecommunications; radiocommunications and broadcasting enterprises; and whether these laws are appropriate and effective to deal with new technologies and services; electronic commerce and what it means for business; consumers and the community; restrictions on media and online content; including classification and censorship; and regulation of content; protecting intellectual property and reputation, covering copyright; trademarks; and defamation; how legal enforcement and regulatory modes change under the impact of the mass personalisation; ubiquitous publishing;  Social Networking and User Generated Content features of Web 2.0; impact of the online giants'cult of 'Disruption'/'Forgiveness not Permission' on the rule of law online; digital surveillance and tracking law; issues around (Open data). Big data; and their use in artificial intelligence and machine learning online; new modes of legal services which arise in response to these challenges",
+      "faculty": "Faculty of Law",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0
+
+    },
+
+    {
+      "id": "GENL0250",
+      "title": "Sport, Law and Society in Australia",
+      "description": "The rise of organised sport coincided with Australia's development as a nation, playing a major role in developing Australian identities. As one of Australia's major cultural practices, participation, and success in international sport became an essential element in projecting Australia on the global stage. In the late twentieth century sport became one of nation's fastest growing industries. This course explores the history of Australian sport and the development of a body of law to underpin its place and function in Australian society. Topics include sport and Australian nationalism; the rise of organised sport in Australia; development of sports governance; the intersection of sport and the law in issues of race, gender, ethnicity and religion; the debate between amateurism and professionalism; Australian sport on the global stage; doping and the law, the court of Arbitration for sport; the impact of corporate interest in Australian sport.Main Topics: sports Governance; the Intersection of Sport and the Law in Australia; public Policy and Sport; commodification of Sport; the International Dimension; the Court of Arbitration for Sport and the World Anti-Doping Agency",
+      "faculty": "Faculty of Law",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 1 ]
+    },
+
+    {
+      "id": "GENL0251",
+      "title": "Managers, Media, Players and Spectators",
+      "description": "This course examines the global business of sport from the perspectives of its various stakeholders, managers, media, players and spectators. Using a series of case studies, the course traces the development and spread of global sport and the development of unique sporting cultures and institutions in many nations, particularly in the USA, Europe, the Pacific Rim and Africa. It examines the transformation of amateur sport to professionalism and the bitter wars fought between owners, managers and players often played out in the courtroom and manifested by strikes and lockouts. It examines the phenomenon of the bidding for and the staging of mega events such as the Olympic Games and the FIFA World Cup; global sports politics; corruption and match fixing; the role of sports media; broadcast rights; sports marketing and intellectual property; violence on and off the field; athletes rights; athletesí health and wellbeing; sports apparel and sweatshops; fans and spectators in the digital age; sports slavery and trafficking in Africa; drugs and doping and the World Anti-Doping Agency; international sports law and the Court of Arbitration for Sport. Main Topics: the global business of sport and the intersection with the law; comparative sports industrial relations; dealing with corruption and match fixing; sports slavery and trafficking; athletes rights; human rights; the politics of bidding for staging mega events; media, broadcast rights and intellectual property",
+      "faculty": "Faculty of Law",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "terms" : [ 3 ]
+    },
+
+    {
+      "id": "GENY0002",
+      "title": "Academic Skills Plus",
+      "description": "The course will introduce you to the how of reading, writing, thinking and speaking, as well as give you an opportunity to apply what you learn to a particular topic. The topic will be Science Fiction. We will examine critical writings about a selection of books and films which address this theme. Weekly readings will be provided and you will also be expected to do your own outside reading. The 3 hour class will begin with a one hour lecture focusing on the week's topic followed by a two hour skills based seminar. This course will focus on the research/writing process, presentation skills, essay structure, the integration of and engagement with academic sources, critical thinking, and academic writing style. This course will complement your work in other courses and enable you to be better prepared for your future academic work. REGZ0001 is not a prerequisite for REGZ0002. Both course use the same academic skills material, but with a different theme",
+      "faculty": "DVC (Academic) Board of Studies",
+      "school": "The Learning Centre",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "equivalent": [ "HUMS0002", "REGZ0002" ],
+      "terms" : [ 2 ]
+    },
+
+
+    {
+      "id": "GENM0709",
+      "title": "The Power of Sport: An Introduction to Sport for Social Change",
+      "description": "Sport has the power to change the world... it has the power to inspire. It has the power to unite people in a way that little else does. It speaks to youth in a language they understand.(Nelson Mandela, circa early 2000). There is no doubt about the positive benefits of engaging in sports. The power of sports, however, goes well beyond the playing field, and individual benefit.  Sports traditionally are not appreciated for the vast extent of social good, and positive change  they can bring, in  both developing and developed countries. This course will introduce students to the exciting new and emerging field of sport for development and social change (S4D/SC), where the power of sport goes well beyond the traditional playing fields to address health and social challenges. Through an inspiring mix of workshops, case studies, multi-media, field visits to see SD in action and guest experts, students will engage with the compelling power of this emerging field of sport for development and social change. People who work together will win, whether it be against complex football defences, or the problems of modern society. (V Lombardi, circa 1960ís)",
+      "faculty": "Faculty of Medicine",
+      "school": "School of Public Health & Community Medicine",
+      "type": "GENERAL",
+      "level": 1,
+      "uoc": 6,
+      "min_uoc": 0,
+      "notes": [ "Undergraduate Faculty of Medicine single/dual program students" ],
+      "terms" : [ 1 ]
+    }
+
+  ]
+}
